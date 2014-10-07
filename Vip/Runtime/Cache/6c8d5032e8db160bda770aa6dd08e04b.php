@@ -66,7 +66,7 @@ function CheckAll(form)
 		<td <?php echo ($c_b[9]); ?>><?php echo ($vo['b9']); ?></td>
 		<td <?php echo ($c_b[10]); ?>><?php echo ($vo['b10']); ?></td>
 		<td <?php echo ($c_b[0]); ?>><?php echo ($vo['b1']+$vo['b2']+$vo['b3']+$vo['b4']+$vo['b6']+$vo['b7']+$vo['b8']+$vo['b9']+$vo['b10']); ?></td>
-		<td <?php echo ($c_b[12]); ?>><a href="__URL__/financeShow/RDT/<?php echo ($vo['s_date']); ?>/PDT/<?php echo ($vo['e_date']); ?>/cid/<?php echo ($cid); ?>" title="这一期明细">明细<?php echo ($cid); ?></a></td>
+		<td <?php echo ($c_b[12]); ?>><a href="__URL__/financeShow/RDT/<?php echo ($vo['s_date']); ?>/PDT/<?php echo ($vo['e_date']); ?>/cid/<?php echo ($cid); ?>" title="这一期明细">明细</a></td>
 	</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 	<tr align="center">
 		<td>总计：</td>
