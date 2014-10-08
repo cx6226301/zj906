@@ -8579,3 +8579,672 @@
 [ 2014-10-07T09:55:07+08:00 ] /zj906/index.php/Public/verify/ | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 152 行.
 [ 2014-10-07T09:55:07+08:00 ] /zj906/index.php/Public/verify/ | NOTIC: [8192] Function eregi() is deprecated CommonAction.class.php 第 160 行.
 [ 2014-10-07T09:55:07+08:00 ] /zj906/index.php/Public/verify/ | NOTIC: [2] eregi() expects parameter 2 to be string, array given CommonAction.class.php 第 160 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000511s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000605s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined variable: post CommonAction.class.php 第 152 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 152 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined variable: get CommonAction.class.php 第 159 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.008648s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000408s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.006101s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000845s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.007557s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT * FROM `xt_fck` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001139s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT * FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000475s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined offset: 1 CommonAction.class.php 第 175 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined offset: 2 CommonAction.class.php 第 176 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined offset: 3 CommonAction.class.php 第 177 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: UPDATE `xt_fck` SET `day_feng`=0,_times=1412611200 WHERE _times !=1412611200 [ RunTime:0.001574s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given DbMysql.class.php 第 132 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given DbMysql.class.php 第 97 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SHOW COLUMNS FROM `xt_bonus` [ RunTime:0.019041s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT SUM(b1) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412611200) AND (`e_date` < 1412697600)  ) LIMIT 1   [ RunTime:0.008383s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT SUM(b2) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412611200) AND (`e_date` < 1412697600)  ) LIMIT 1   [ RunTime:0.000415s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT SUM(b3) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412611200) AND (`e_date` < 1412697600)  ) LIMIT 1   [ RunTime:0.000382s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT SUM(b4) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412611200) AND (`e_date` < 1412697600)  ) LIMIT 1   [ RunTime:0.000352s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT SUM(b5) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412611200) AND (`e_date` < 1412697600)  ) LIMIT 1   [ RunTime:0.000393s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT SUM(b6) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412611200) AND (`e_date` < 1412697600)  ) LIMIT 1   [ RunTime:0.000335s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT `s2`,`i4`,`str29` FROM `xt_fee` LIMIT 1   [ RunTime:0.000149s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SHOW COLUMNS FROM `xt_msg` [ RunTime:0.018936s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT COUNT(*) AS tp_count FROM `xt_msg` WHERE ( `isid` = '1' ) AND ( `s_uid` = '1' ) AND ( `is_read` = 0 ) LIMIT 1   [ RunTime:0.000232s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT `prem` FROM `xt_fck` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000205s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT * FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000308s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined offset: 1 CommonAction.class.php 第 175 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined offset: 2 CommonAction.class.php 第 176 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [8] Undefined offset: 3 CommonAction.class.php 第 177 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT `s11` FROM `xt_fee` LIMIT 1   [ RunTime:0.000162s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.007641s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SHOW COLUMNS FROM `xt_xiaof` [ RunTime:0.014544s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | SQL: SELECT `id`,`user_id`,`agent_cf`,`re_path` FROM `xt_fck` WHERE is_pay>0 and agent_cf>=10  [ RunTime:0.000705s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | NOTIC: [2] Invalid argument supplied for foreach() IndexAction.class.php 第 145 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_template ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000940s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001016s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_parse ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.010611s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010726s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_filter ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.000865s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.000830s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000473s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000588s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003039s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_end ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000570s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000647s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ route_check ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run CheckRoute Behavior [ RunTime:0.000680s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ route_check ] --END-- [ RunTime:0.000776s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000650s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: post CommonAction.class.php 第 152 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 152 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8192] Function eregi() is deprecated CommonAction.class.php 第 160 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [2] eregi() expects parameter 2 to be string, array given CommonAction.class.php 第 160 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.007314s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000486s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.005766s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000402s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_bonus` [ RunTime:0.005554s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_bonus` WHERE ( `uid` = '1' ) ORDER BY id desc LIMIT 10   [ RunTime:0.000736s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_form` [ RunTime:0.016752s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 1   [ RunTime:0.000908s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 1,10   [ RunTime:0.000354s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_product` [ RunTime:0.029836s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_product` WHERE ( `yc_cp` = 0 ) ORDER BY id asc LIMIT 12   [ RunTime:0.000362s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT COUNT(*) AS tp_count FROM `xt_fck` WHERE ( `re_id` = '1' ) AND ( `is_pay` = 1 ) LIMIT 1   [ RunTime:0.000629s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_msg` [ RunTime:0.004180s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT COUNT(*) AS tp_count FROM `xt_msg` WHERE ( `isid` = '1' ) AND ( `s_uid` = '1' ) AND ( `is_read` = 0 ) LIMIT 1   [ RunTime:0.000245s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_fck` WHERE id=1 LIMIT 1   [ RunTime:0.000566s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT COUNT(*) AS tp_count FROM `xt_fck` WHERE p_path like "%,1,%" and is_pay>0 LIMIT 1   [ RunTime:0.001186s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(f4) AS tp_sum FROM `xt_fck` WHERE re_id=1 and is_pay>0 LIMIT 1   [ RunTime:0.000671s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(f4) AS tp_sum FROM `xt_fck` WHERE p_path like "%,1,%" and is_pay>0 LIMIT 1   [ RunTime:0.000585s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_xiaof` [ RunTime:0.004936s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(money_two) AS tp_sum FROM `xt_xiaof` WHERE uid=1 and is_pay=0 and money_two>0 LIMIT 1   [ RunTime:0.000233s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(money) AS tp_sum FROM `xt_xiaof` WHERE uid=1 and is_pay=0 and money>0 LIMIT 1   [ RunTime:0.000161s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT `str21`,`str22`,`str23` FROM `xt_fee` LIMIT 1   [ RunTime:0.000182s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 10   [ RunTime:0.000319s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 3   [ RunTime:0.000302s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_template ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run LocationTemplate Behavior [ RunTime:0.000817s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_template ] --END-- [ RunTime:0.000921s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_parse ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_fck` WHERE user_id='100000' LIMIT 1   [ RunTime:0.000611s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: agent_xianjin df847308fbeec079fead8f934f8fb1d9.php 第 73 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: live_gupiao df847308fbeec079fead8f934f8fb1d9.php 第 76 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: yuan_gupiao df847308fbeec079fead8f934f8fb1d9.php 第 79 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: voo df847308fbeec079fead8f934f8fb1d9.php 第 156 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: all_money df847308fbeec079fead8f934f8fb1d9.php 第 170 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: server df847308fbeec079fead8f934f8fb1d9.php 第 174 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: server df847308fbeec079fead8f934f8fb1d9.php 第 174 行.
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run ParseTemplate Behavior [ RunTime:0.016778s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016848s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_filter ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run ContentReplace Behavior [ RunTime:0.000580s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run TokenBuild Behavior [ RunTime:0.000446s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000278s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run ShowRuntime Behavior [ RunTime:0.000502s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002007s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_end ] --START--
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Run ShowPageTrace Behavior [ RunTime:0.000427s ]
+[ 2014-10-07T09:57:09+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_end ] --END-- [ RunTime:0.000494s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | INFO: Tag[ route_check ] --START--
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | INFO: Run CheckRoute Behavior [ RunTime:0.000675s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.000769s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000524s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000594s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.007183s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000303s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.005151s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000242s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | SQL: SELECT `id`,`user_id` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `is_boss` > 0 ) LIMIT 1   [ RunTime:0.000199s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/codys/ | SQL: SELECT `id` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `passopen` = 'c4ca4238a0b923820dcc509a6f75849b' ) LIMIT 1   [ RunTime:0.000173s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ route_check ] --START--
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run CheckRoute Behavior [ RunTime:0.000734s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ route_check ] --END-- [ RunTime:0.000833s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000587s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000662s ]
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-07T09:57:14+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.007182s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000310s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.005397s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000286s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `id`,`user_id` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `is_boss` > 0 ) LIMIT 1   [ RunTime:0.000215s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SHOW COLUMNS FROM `xt_history` [ RunTime:0.027057s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | NOTIC: [8] Undefined index: S_Date YouZiAction.class.php 第 4877 行.
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | NOTIC: [8] Undefined index: E_Date YouZiAction.class.php 第 4878 行.
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | NOTIC: [8] Undefined index: UserID YouZiAction.class.php 第 4879 行.
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | NOTIC: [8] Undefined index: tp YouZiAction.class.php 第 4880 行.
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT COUNT(*) AS tp_count FROM `xt_history` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.000250s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT * FROM `xt_history` WHERE ( 1=1 ) ORDER BY pdt desc LIMIT 0,20   [ RunTime:0.043859s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `s18` FROM `xt_fee` LIMIT 1   [ RunTime:0.000380s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_template ] --START--
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run LocationTemplate Behavior [ RunTime:0.001151s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_template ] --END-- [ RunTime:0.001293s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_parse ] --START--
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2234 LIMIT 1   [ RunTime:0.000546s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2137 LIMIT 1   [ RunTime:0.000417s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2137 LIMIT 1   [ RunTime:0.000390s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000416s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000430s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2136 LIMIT 1   [ RunTime:0.000415s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2136 LIMIT 1   [ RunTime:0.000415s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000241s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000236s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2135 LIMIT 1   [ RunTime:0.000236s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2135 LIMIT 1   [ RunTime:0.000196s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000230s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000247s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2134 LIMIT 1   [ RunTime:0.000235s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2134 LIMIT 1   [ RunTime:0.000226s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000210s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000209s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2133 LIMIT 1   [ RunTime:0.000220s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =2133 LIMIT 1   [ RunTime:0.000181s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | SQL: SELECT `user_id` FROM `xt_fck` WHERE id =1 LIMIT 1   [ RunTime:0.000189s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run ParseTemplate Behavior [ RunTime:0.044803s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_parse ] --END-- [ RunTime:0.044898s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_filter ] --START--
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run ContentReplace Behavior [ RunTime:0.000574s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run TokenBuild Behavior [ RunTime:0.000479s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000272s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run ShowRuntime Behavior [ RunTime:0.000495s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002011s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_end ] --START--
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Run ShowPageTrace Behavior [ RunTime:0.000406s ]
+[ 2014-10-07T09:57:15+08:00 ] /zj906/index.php/YouZi/adminmoneyflows | INFO: Tag[ view_end ] --END-- [ RunTime:0.000472s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | INFO: Tag[ route_check ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | INFO: Run CheckRoute Behavior [ RunTime:0.000676s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000770s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000521s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000622s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.008637s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000323s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.006258s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000289s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/codys/Urlsz/6 | NOTIC: [8] Undefined index: Urlsz TreeAction.class.php 第 99 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ route_check ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run CheckRoute Behavior [ RunTime:0.000655s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ route_check ] --END-- [ RunTime:0.000746s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000510s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000578s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.007261s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000402s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.007160s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000302s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [8] Undefined index: UID TreeAction.class.php 第 177 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [8] Undefined index: UserID TreeAction.class.php 第 181 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `id` = '1' ) AND ( (re_path like '%,1,%' or id = 1) ) LIMIT 1   [ RunTime:0.000855s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' TreeAction.class.php 第 227 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [8] Undefined index: 0 TreeAction.class.php 第 229 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000288s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000243s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '1' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.001096s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000167s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2129' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000942s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000149s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2139' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.001120s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000172s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2162' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000913s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000170s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2163' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000776s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000163s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2164' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000774s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000150s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2165' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000760s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000160s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2166' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000797s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000148s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2167' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000793s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000146s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2168' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000774s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000221s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2169' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000970s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000187s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2170' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000808s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000147s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2171' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000773s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000139s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2158' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000846s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000145s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2173' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000792s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000148s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2174' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000767s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000140s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2175' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000766s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000136s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2176' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000782s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000144s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2177' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000768s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000162s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2178' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000858s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000186s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2159' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000837s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000239s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2179' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000863s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000153s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2160' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000788s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000145s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2161' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000784s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000153s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2172' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000765s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000218s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2140' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000828s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000146s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2141' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000788s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000157s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2148' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000775s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000138s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2149' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000756s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000139s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2142' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000903s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000273s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2150' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.001009s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000160s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2180' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000789s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000145s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2189' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000784s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000163s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2190' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000770s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000159s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2181' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000962s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000169s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2191' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000800s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000146s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2200' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000763s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000142s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2201' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000773s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000147s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2202' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000783s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000148s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2203' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000772s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2204' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.001137s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000189s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2205' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000821s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000150s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2206' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000770s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2207' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000768s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000164s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2208' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000853s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000168s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2192' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000772s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000145s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2193' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000760s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000146s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2194' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000805s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000150s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2195' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000761s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000142s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2196' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000991s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000173s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2197' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000838s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000163s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2198' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000768s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000142s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2199' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000760s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000148s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2182' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000798s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000171s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2183' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000775s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2184' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000756s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000143s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2185' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000760s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2186' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000824s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000150s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2187' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000775s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2188' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000790s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000153s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2143' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000827s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000161s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2144' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000789s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000138s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2145' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000776s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000139s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2146' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000883s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000200s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2151' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.001015s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000156s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2209' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000939s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000163s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2219' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000787s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000140s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2220' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000870s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000171s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2221' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000798s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000155s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2222' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000803s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000148s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2223' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000818s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000225s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2224' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000838s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000166s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2225' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000774s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000147s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2226' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000929s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000161s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2227' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000773s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000162s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2210' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000772s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000142s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2211' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000773s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000140s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2212' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000758s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000140s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2213' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000894s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000163s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2214' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000774s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000274s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2215' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000892s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000157s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2228' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000810s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000153s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2232' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000771s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000152s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2233' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000776s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000204s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2234' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.001009s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000156s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2235' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000772s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000154s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2236' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000764s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000140s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2237' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000772s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000158s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2238' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000831s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000152s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2239' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000763s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2240' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000778s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000154s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2241' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000767s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000150s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2242' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000761s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000161s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2243' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000836s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000156s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2244' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000775s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000139s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2245' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000755s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000138s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2267' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000759s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000162s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2229' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000772s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000138s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2230' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000901s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000165s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2231' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000794s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000165s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2216' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000779s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000144s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2217' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000789s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000183s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2218' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000898s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000225s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2152' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000820s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000144s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2153' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000771s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000153s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2154' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000786s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000160s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2155' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000769s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000130s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2156' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000766s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000138s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2157' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000762s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000161s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2147' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000780s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000145s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2130' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000986s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000215s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2255' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000868s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000166s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2256' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000777s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000144s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2257' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000759s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000145s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2258' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000889s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000168s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2262' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000793s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000143s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2263' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000764s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000140s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2264' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000778s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000155s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2266' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000765s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000137s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2265' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000765s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000138s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2259' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000770s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000139s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2260' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000790s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2261' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000861s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000228s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2131' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.001023s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000191s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2246' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000799s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000142s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2247' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000764s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2248' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000816s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000165s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2249' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000776s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000147s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2250' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000761s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000143s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2251' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000757s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000184s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2252' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000878s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000163s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2253' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000776s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000185s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2254' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000897s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000196s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2132' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000903s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000161s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2133' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000780s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2134' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000759s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000140s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2135' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000795s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000141s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2136' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000762s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000142s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2137' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000763s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT `s10` FROM `xt_fee` LIMIT 1   [ RunTime:0.000125s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | SQL: SELECT * FROM `xt_fck` WHERE ( `re_id` = '2138' ) ORDER BY is_pay desc,pdt asc,id asc  [ RunTime:0.000778s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | NOTIC: [2] Invalid argument supplied for foreach() TreeAction.class.php 第 278 行.
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_template ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run LocationTemplate Behavior [ RunTime:0.000890s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_template ] --END-- [ RunTime:0.000965s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_parse ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run ParseTemplate Behavior [ RunTime:0.007537s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007623s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_filter ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run ContentReplace Behavior [ RunTime:0.000564s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run TokenBuild Behavior [ RunTime:0.000559s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000369s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run ShowRuntime Behavior [ RunTime:0.000561s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002248s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_end ] --START--
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Run ShowPageTrace Behavior [ RunTime:0.000483s ]
+[ 2014-10-07T10:04:34+08:00 ] /zj906/index.php/Tree/Tree | INFO: Tag[ view_end ] --END-- [ RunTime:0.000550s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ route_check ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run CheckRoute Behavior [ RunTime:0.000701s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.000799s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000543s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000618s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | NOTIC: [8] Undefined variable: post CommonAction.class.php 第 152 行.
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 152 行.
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | NOTIC: [8192] Function eregi() is deprecated CommonAction.class.php 第 160 行.
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | NOTIC: [2] eregi() expects parameter 2 to be string, array given CommonAction.class.php 第 160 行.
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_template ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000653s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000734s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_parse ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run ParseTemplate Behavior [ RunTime:0.007741s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007869s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_filter ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run ContentReplace Behavior [ RunTime:0.000785s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run TokenBuild Behavior [ RunTime:0.000589s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000292s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000506s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002432s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_end ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000409s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/login/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000481s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | INFO: Tag[ route_check ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | INFO: Run CheckRoute Behavior [ RunTime:0.000732s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.000833s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | INFO: Tag[ app_begin ] --START--
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000691s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000777s ]
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | NOTIC: [8] Undefined variable: post CommonAction.class.php 第 152 行.
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 152 行.
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | NOTIC: [8192] Function eregi() is deprecated CommonAction.class.php 第 160 行.
+[ 2014-10-07T10:31:53+08:00 ] /zj906/index.php/Public/verify/ | NOTIC: [2] eregi() expects parameter 2 to be string, array given CommonAction.class.php 第 160 行.
