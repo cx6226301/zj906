@@ -62,7 +62,7 @@ $array=array(
 	'Bonus_XXc'  => '',
 
 	//=======系统参数=========
-	'System_namex'  => '华宇基金会员管理系统',     				 //系统名字
+	'System_namex'  => '华宇游戏理财会员管理系统',     				 //系统名字
 	'System_bankx'  => '农业银行|工商银行',      //银行名字
 	//'System_bankx'  => '财付通',      //银行名字
 	'User_namex'    => '会员编号',

@@ -1,5 +1,36 @@
-<include file="../Public/header" />
-<load href="__PUBLIC__/Js/UserJs.js" />
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><?php echo ($System_namex); ?></title>
+<link href="__PUBLIC__/Css/body.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="__PUBLIC__/Css/menu.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="__PUBLIC__/Css/main.css" rel="stylesheet" media="all" type="text/css" />
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/Base.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/prototype.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/mootools.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/Ajax/ThinkAjax.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/Form/CheckForm.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/common.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/Util/ImageLoader.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/myfocus-1.0.4.min.js\"></sc"+"ript>")</script>
+<script type="text/javascript">document.write("<scr"+"ipt src=\"__PUBLIC__/Js/all.js\"></sc"+"ript>")</script>
+<script language="JavaScript">
+ifcheck = true;
+function CheckAll(form)
+{
+	for (var i=0;i<form.elements.length-2;i++)
+	{
+		var e = form.elements[i];
+		e.checked = ifcheck;
+	}
+	ifcheck = ifcheck == true ? false : true;
+}
+</script>
+</head>
+<body onLoad="loadBar(0)">
+
+<script type="text/javascript" src="__PUBLIC__/Js/UserJs.js"></script>
 <div class="ncenter_box">
 <div class="accounttitle"><h1>修改密码 </h1></div>
     <div class="c_p5"><div class="tips">请选择修改密码级别，输入旧密码及您要修改成为的新密码，输入验证码，点击确认。 </div></div>
@@ -33,7 +64,7 @@
           </tr>
           <tr>
             <td align="right">验证码：</td>
-            <td><input name="verify" type="text" class="small bLeftRequire" size="5" maxlength="5" />
+            <td><input name="verify" type="text" class="small bLeftRequire" size="4" maxlength="4" />
                 <img src="__URL__/verify/" border="0" alt="点击刷新验证码" id="verifyImg" onclick="fleshVerify()" style="cursor:pointer" align="absmiddle" />&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
@@ -43,7 +74,7 @@
           <tr>
           <tr style="display:none">
             <td align="right">密保问题：</td>
-            <td>{$vo['wenti']}</td>
+            <td><?php echo ($vo['wenti']); ?></td>
             <td>&nbsp;</td>
             </tr>
           <tr style="display:none">

@@ -1,0 +1,124 @@
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | INFO: Tag[ app_begin ] --START--
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002938s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003093s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined variable: post CommonAction.class.php 第 152 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 152 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined variable: get CommonAction.class.php 第 159 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.076474s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000957s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.089877s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.014110s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.013746s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT * FROM `xt_fck` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.001515s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT * FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000587s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined offset: 1 CommonAction.class.php 第 175 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined offset: 2 CommonAction.class.php 第 176 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined offset: 3 CommonAction.class.php 第 177 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: UPDATE `xt_fck` SET `day_feng`=0,_times=1412697600 WHERE _times !=1412697600 [ RunTime:0.005760s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given DbMysql.class.php 第 132 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] mysql_free_result() expects parameter 1 to be resource, boolean given DbMysql.class.php 第 97 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SHOW COLUMNS FROM `xt_bonus` [ RunTime:0.061462s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT SUM(b1) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412697600) AND (`e_date` < 1412784000)  ) LIMIT 1   [ RunTime:0.015648s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT SUM(b2) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412697600) AND (`e_date` < 1412784000)  ) LIMIT 1   [ RunTime:0.000517s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT SUM(b3) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412697600) AND (`e_date` < 1412784000)  ) LIMIT 1   [ RunTime:0.000411s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT SUM(b4) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412697600) AND (`e_date` < 1412784000)  ) LIMIT 1   [ RunTime:0.000381s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT SUM(b5) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412697600) AND (`e_date` < 1412784000)  ) LIMIT 1   [ RunTime:0.000376s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] trim() expects parameter 1 to be string, array given Db.class.php 第 549 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT SUM(b6) AS tp_sum FROM `xt_bonus` WHERE ( `uid` = '1' ) AND ( (`e_date` > 1412697600) AND (`e_date` < 1412784000)  ) LIMIT 1   [ RunTime:0.000455s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT `s2`,`i4`,`str29` FROM `xt_fee` LIMIT 1   [ RunTime:0.000267s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SHOW COLUMNS FROM `xt_msg` [ RunTime:0.071988s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT COUNT(*) AS tp_count FROM `xt_msg` WHERE ( `isid` = '1' ) AND ( `s_uid` = '1' ) AND ( `is_read` = 0 ) LIMIT 1   [ RunTime:0.000910s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT `prem` FROM `xt_fck` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000413s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT * FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000614s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined offset: 1 CommonAction.class.php 第 175 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined offset: 2 CommonAction.class.php 第 176 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [8] Undefined offset: 3 CommonAction.class.php 第 177 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT `s11` FROM `xt_fee` LIMIT 1   [ RunTime:0.000312s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.010580s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SHOW COLUMNS FROM `xt_xiaof` [ RunTime:0.027993s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | SQL: SELECT `id`,`user_id`,`agent_cf`,`re_path` FROM `xt_fck` WHERE is_pay>0 and agent_cf>=10  [ RunTime:0.000901s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | NOTIC: [2] Invalid argument supplied for foreach() IndexAction.class.php 第 145 行.
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | INFO: Tag[ view_template ] --START--
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | INFO: Run LocationTemplate Behavior [ RunTime:0.030080s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.030199s ]
+[ 2014-10-08T13:52:16+08:00 ] /zj906/ | INFO: Tag[ view_parse ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Run ParseTemplate Behavior [ RunTime:0.060668s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.060795s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Tag[ view_filter ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Run ContentReplace Behavior [ RunTime:0.001763s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Run TokenBuild Behavior [ RunTime:0.011480s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001426s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001742s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.016706s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Tag[ view_end ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001577s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001708s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ route_check ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run CheckRoute Behavior [ RunTime:0.007313s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ route_check ] --END-- [ RunTime:0.007447s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ app_begin ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001325s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001454s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: post CommonAction.class.php 第 152 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 152 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8192] Function eregi() is deprecated CommonAction.class.php 第 160 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [2] eregi() expects parameter 2 to be string, array given CommonAction.class.php 第 160 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 105 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [2048] mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead CommonAction.class.php 第 110 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_fck` [ RunTime:0.007896s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT `user_id`,`password`,`user_type` FROM `xt_fck` WHERE ( `id` = '1' ) AND ( `user_id` = '100000' ) LIMIT 1   [ RunTime:0.000370s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_fee` [ RunTime:0.006300s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT `i3` FROM `xt_fee` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: user_type CommonAction.class.php 第 81 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_bonus` [ RunTime:0.005752s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_bonus` WHERE ( `uid` = '1' ) ORDER BY id desc LIMIT 10   [ RunTime:0.000643s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_form` [ RunTime:0.028428s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 1   [ RunTime:0.013914s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 1,10   [ RunTime:0.000295s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_product` [ RunTime:0.040684s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_product` WHERE ( `yc_cp` = 0 ) ORDER BY id asc LIMIT 12   [ RunTime:0.000629s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT COUNT(*) AS tp_count FROM `xt_fck` WHERE ( `re_id` = '1' ) AND ( `is_pay` = 1 ) LIMIT 1   [ RunTime:0.000680s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_msg` [ RunTime:0.004263s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT COUNT(*) AS tp_count FROM `xt_msg` WHERE ( `isid` = '1' ) AND ( `s_uid` = '1' ) AND ( `is_read` = 0 ) LIMIT 1   [ RunTime:0.000213s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_fck` WHERE id=1 LIMIT 1   [ RunTime:0.000434s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT COUNT(*) AS tp_count FROM `xt_fck` WHERE p_path like "%,1,%" and is_pay>0 LIMIT 1   [ RunTime:0.000576s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(f4) AS tp_sum FROM `xt_fck` WHERE re_id=1 and is_pay>0 LIMIT 1   [ RunTime:0.000758s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(f4) AS tp_sum FROM `xt_fck` WHERE p_path like "%,1,%" and is_pay>0 LIMIT 1   [ RunTime:0.001323s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SHOW COLUMNS FROM `xt_xiaof` [ RunTime:0.004795s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(money_two) AS tp_sum FROM `xt_xiaof` WHERE uid=1 and is_pay=0 and money_two>0 LIMIT 1   [ RunTime:0.000211s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT SUM(money) AS tp_sum FROM `xt_xiaof` WHERE uid=1 and is_pay=0 and money>0 LIMIT 1   [ RunTime:0.000143s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT `str21`,`str22`,`str23` FROM `xt_fee` LIMIT 1   [ RunTime:0.000163s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 10   [ RunTime:0.000245s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_form` WHERE ( `status` = 1 ) ORDER BY baile desc,id desc LIMIT 3   [ RunTime:0.000231s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_template ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run LocationTemplate Behavior [ RunTime:0.001440s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_template ] --END-- [ RunTime:0.001520s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_parse ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | SQL: SELECT * FROM `xt_fck` WHERE user_id='100000' LIMIT 1   [ RunTime:0.000538s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: agent_xianjin df847308fbeec079fead8f934f8fb1d9.php 第 73 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: live_gupiao df847308fbeec079fead8f934f8fb1d9.php 第 76 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined index: yuan_gupiao df847308fbeec079fead8f934f8fb1d9.php 第 79 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: voo df847308fbeec079fead8f934f8fb1d9.php 第 156 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: all_money df847308fbeec079fead8f934f8fb1d9.php 第 170 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: server df847308fbeec079fead8f934f8fb1d9.php 第 174 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | NOTIC: [8] Undefined variable: server df847308fbeec079fead8f934f8fb1d9.php 第 174 行.
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run ParseTemplate Behavior [ RunTime:0.044272s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_parse ] --END-- [ RunTime:0.044348s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_filter ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run ContentReplace Behavior [ RunTime:0.000883s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run TokenBuild Behavior [ RunTime:0.000745s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000582s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run ShowRuntime Behavior [ RunTime:0.000760s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003181s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_end ] --START--
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Run ShowPageTrace Behavior [ RunTime:0.000695s ]
+[ 2014-10-08T13:52:17+08:00 ] /zj906/index.php/Public/main | INFO: Tag[ view_end ] --END-- [ RunTime:0.000771s ]
